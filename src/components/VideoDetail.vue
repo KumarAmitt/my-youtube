@@ -1,7 +1,7 @@
 <template>
   <div v-if="video" class="col-md-8">
-    <div class="video">
-      <iframe :src="videoUrl" />
+    <div class="ratio ratio-16x9">
+      <iframe :src="videoUrl" allowfullscreen />
     </div>
     <div class="details">
       <h4>{{video.snippet.title}}</h4>
@@ -31,8 +31,4 @@ export default {
   border-radius: 4px;
 }
 
-.video iframe {
-  width: 100%;
-  height: 70vh;
-}
 </style>
