@@ -1,4 +1,4 @@
 # my-youtube
 
-## URL
-- `https://console.cloud.google.com/apis/`
+## API
+- Url to generate API Key: `https://console.cloud.google.com/apis/`
